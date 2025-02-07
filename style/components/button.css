@@ -1,0 +1,49 @@
+/* Your button CSS file */
+:root {
+  /* colors */
+  --clr-light-gray: #bbbbbb;
+  --clr-gray: #909090;
+  --clr-light-green: #6AD58B;
+  --clr-green: #3AC162;
+  --clr-yellow: #FCF596;
+  /* box shadow */
+  --x-transform: 5px;
+  --y-transform: 5px;
+}
+/* Gray button */
+.btn-medium {
+  color: var(--clr-light-gray);
+  border: 1px solid var(--clr-light-gray);
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn-medium:hover {
+  color: var(--clr-gray);
+  border: 1px solid var(--clr-gray);
+}
+/* Green button */
+.btn-treehouse {
+  color: white;
+  font-weight: 600;
+  background-color: var(--clr-light-green);
+  padding: 12px 20px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.btn-treehouse:hover {
+  background-color: var(--clr-green);
+}
+/* My button */
+.btn-yours {
+  color: black;
+  border: 2px solid black;
+  padding: 15px 30px;
+  box-shadow: 0px 0px 0px black;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-yours:hover {
+  box-shadow: var(--x-transform) var(--y-transform) 0px black;
+}

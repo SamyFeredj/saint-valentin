@@ -39,6 +39,7 @@ h1, h2 {
 button {
   background-color: var(--clr-secondaire);
   position: absolute;
+  user-select: none;
 }
 
 #btn-yes {

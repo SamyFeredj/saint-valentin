@@ -32,10 +32,6 @@ h1, h2 {
   position: relative;
 }
 
-.buttons {
-  position: relative;
-}
-
 button {
   background-color: var(--clr-secondaire);
   position: absolute;
@@ -43,7 +39,7 @@ button {
 }
 
 #btn-yes {
-  left: 50px;
+  display: none;
 }
 
 #btn-no {
